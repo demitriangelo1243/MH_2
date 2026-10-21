@@ -7,6 +7,6 @@ services:
     autoDeploy: true
     envVars:
       - key: ALLOWED_ORIGINS
-        value: https://yourdomain.com,https://www.yourdomain.com
+        value: https://demitriangelo1243gmailcom.wpcomstaging.com
       - key: MAX_CHARS
         value: "400"
