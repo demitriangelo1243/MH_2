@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: dj-tag-api
+    runtime: docker
+    plan: standard
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: ALLOWED_ORIGINS
+        value: https://yourdomain.com,https://www.yourdomain.com
+      - key: MAX_CHARS
+        value: "400"
