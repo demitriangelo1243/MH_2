@@ -13,7 +13,7 @@ from pedalboard.io import AudioFile
 
 SR = 24000
 MAX_CHARS = int(os.getenv("MAX_CHARS", "400"))
-ORIGINS = [o.strip() for o in os.getenv("ALLOWED_ORIGINS", "https://yourdomain.com").split(",") if o.strip()]
+ORIGINS = [o.strip() for o in os.getenv("ALLOWED_ORIGINS", "https://moneyhamster.shop").split(",") if o.strip()]
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": ORIGINS}}, methods=["GET", "POST", "OPTIONS"])
