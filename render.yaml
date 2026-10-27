@@ -7,6 +7,6 @@ services:
     autoDeploy: true
     envVars:
       - key: ALLOWED_ORIGINS
-        value: https://moneyhamster.com
+        value: https://moneyhamster.shop
       - key: MAX_CHARS
         value: "400"
